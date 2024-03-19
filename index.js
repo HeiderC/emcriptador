@@ -47,5 +47,10 @@ function desencriptar () {
         parrafo.textContent = "Ingresa  el  texto  que  deseas  encriptar  o  desencriptar";
         alert("Debes ingresar algun texto");
       }
+   function copiar() {
+  var desencriptado =document.getElementById('resultado');
+  desencriptado.select();
+  document.execCommand('copy');
+}
 }
   
